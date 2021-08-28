@@ -1,0 +1,33 @@
+@import "../global.scss";
+
+.btn {
+  @include align-all();
+  border-radius: 6px;
+  border: unset;
+  color: $light;
+  cursor: pointer;
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
+}
+
+.rounded {
+  border-radius: 2rem;
+}
+
+.btn-primary {
+  background-color: $blue-1;
+}
+
+.btn-secondary {
+  background-color: $dark-blue;
+}
+button{
+  &:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}

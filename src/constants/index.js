@@ -1,0 +1,126 @@
+import AvatarPlaceholder from "../assets/avatar/placeholder.png";
+
+const exportedObject = {
+  TALBE_HEADER: [
+    {
+      title: "Full Name",
+      value: "fullName",
+    },
+    {
+      title: "Phone no",
+      value: "phoneNo",
+    },
+    {
+      title: "Email Id",
+      value: "emailId",
+    },
+    {
+      title: "Pickup Date",
+      value: "pickupDate",
+    },
+    {
+      title: "Qty",
+      value: "qty",
+    },
+    {
+      title: "Payment Status",
+      value: "paymentStatus",
+    },
+    {
+      title: " ",
+      value: "actions",
+    },
+  ],
+  TABLE_DATASET: [
+    {
+      fullName: "Arya Stark",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 5,
+      paymentType: "Credit Card",
+    },
+    {
+      fullName: "Abhi Varma",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 25,
+      paymentType: "Cash",
+    },
+    {
+      fullName: "Arya Stark 1",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 22,
+    },
+    {
+      fullName: "ABridget Parker",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 7,
+      paymentType: "Cash",
+    },
+    {
+      fullName: "Chris Cruse",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 25,
+      paymentType: "Cash",
+    },
+    {
+      fullName: "Camila Stark",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 25,
+      paymentType: "Cash",
+    },
+    {
+      fullName: "Daniel Parker",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 25,
+      paymentType: "Cash",
+    },
+    {
+      fullName: "Diego Stark",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 25,
+    },
+    {
+      fullName: "Lyda Borelli",
+      avatar: AvatarPlaceholder,
+      phoneNo: "987654321",
+      emailId: "tonystark@gmail.com",
+      pickupDate: "01/08/2020",
+      qty: 25,
+      paymentAmount: 25,
+      paymentType: "Cash",
+    },
+  ],
+};
+
+export default exportedObject;

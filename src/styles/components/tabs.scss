@@ -1,0 +1,42 @@
+@import "../global.scss";
+
+.tabs-container {
+  @extend .full-width;
+  width: 100%;
+  box-sizing: border-box;
+  .tabs-head {
+    @extend .full-width;
+    display: flex;
+    flex: 1;
+    .tab {
+      flex: 1;
+      height: 4rem;
+      background-color: $light;
+      border: none;
+      border-bottom: 1px solid $opacity-black-4;
+      cursor: pointer;
+    }
+    .selected-tab {
+      border-bottom: 4px solid $blue-1;
+      transition: 0.1s;
+    }
+    .filter-by {
+      padding-right: 0.5rem;
+      @include align-all(flex-end, center);
+      .filter-label {
+        color: $black-1;
+        font-weight: bold;
+        margin-right: 2rem;
+        font-size: 0.875rem;
+      }
+    }
+  }
+  .tabs-content {
+    background-color: $light;
+  }
+  button {
+    &:hover {
+      box-shadow: none !important;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import "../global.scss";
+
+.search-container {
+  @include col-align();
+  border: 1px solid $blue-1;
+  border-radius: 2rem;
+  .search-input {
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    width: 12rem;
+    padding: 0 1rem;
+    font-size: 0.8rem;
+    &::placeholder {
+      text-align: center;
+    }
+  }
+}

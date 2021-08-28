@@ -1,0 +1,35 @@
+@import "../global.scss";
+
+
+.first-btn {
+	@extend .paginate-btn;
+  margin-right: 0.5rem;
+}
+.last-btn {
+	@extend .paginate-btn;
+  margin-left: 0.5rem;
+}
+
+.left-arrow, .right-arrow, .number-btn{
+	@extend .secondary-btn;
+}
+
+.paginate-btn{
+	background-color: $blue-1;
+	color: $light;
+	border: none;
+	border-radius: 4px;
+	height: 1.5rem;
+	width: 3rem;
+	cursor: pointer;
+}
+
+
+.secondary-btn{
+	color: $blue-1;
+	background-color: $light-3;
+	border: 0.5px solid $blue-1;
+	height: 1.5rem;
+	width: 1.5rem;
+	cursor: pointer;
+}
